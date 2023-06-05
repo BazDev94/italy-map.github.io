@@ -330,39 +330,39 @@ $shadow-1: 0px 0px 20px 0 rgba($black, 0.25),
   0px 0px 30px rgba($black, 0.2) inset;
 $shadow-2: 0px 2px 5px rgba($black, 0.25);
 
-@mixin pillow() {
-  padding: 0 5px;
-  box-shadow: 0 0 20px 0 rgba($black, 0.5);
-  border-radius: 10px;
-  &:hover,
-  &:focus {
-    transform: scale(1.1);
-    transition: all 0.2s ease;
-  }
-}
+// @mixin pillow() {
+//   padding: 0 5px;
+//   box-shadow: 0 0 20px 0 rgba($black, 0.5);
+//   border-radius: 10px;
+//   &:hover,
+//   &:focus {
+//     transform: scale(1.1);
+//     transition: all 0.2s ease;
+//   }
+// }
 
-@mixin flags {
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  margin: 8px 0;
-  text-align: center;
-  top: 0;
-  left: 30px;
-  font-weight: bold;
-  background: $info;
-  box-shadow: 0 0 0 1px $info;
-}
+// @mixin flags {
+//   border-radius: 100%;
+//   width: 20px;
+//   height: 20px;
+//   line-height: 20px;
+//   margin: 8px 0;
+//   text-align: center;
+//   top: 0;
+//   left: 30px;
+//   font-weight: bold;
+//   background: $info;
+//   box-shadow: 0 0 0 1px $info;
+// }
 
-@mixin glassmorphism($blur: 7px, $rad: 10px) {
-  background: rgba($white, 0.75);
-  // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  @include shadow($shadow-2);
-  backdrop-filter: blur($blur);
-  -webkit-backdrop-filter: blur($blur);
-  border-radius: $rad;
-  border: 1px solid rgba($white, 0.18);
-}
+// @mixin glassmorphism($blur: 7px, $rad: 10px) {
+//   background: rgba($white, 0.75);
+//   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+//   @include shadow($shadow-2);
+//   backdrop-filter: blur($blur);
+//   -webkit-backdrop-filter: blur($blur);
+//   border-radius: $rad;
+//   border: 1px solid rgba($white, 0.18);
+// }
 
 
